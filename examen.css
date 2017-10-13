@@ -1,0 +1,49 @@
+*{
+		margin:0
+		padding:0;
+		box-sizing:border-box;
+}
+body{
+	background-color:#981736;
+	color:White;
+	font-family:Calibri;
+}
+article{
+	margin:1cm;
+	padding:0.3cm;
+	background-color:rgb(240,240,240);
+	color:black;
+	border-radius:6xp;
+}
+footer{
+	border-top:solid 2px white;
+	font-size:0.8em;
+	text-align:center;
+	border-bottom:solid 2px #6c1026;
+}
+header ul{/*para poner la lista arriba*/
+	position:absolute;
+	top:0;
+	width:100%;
+}
+header li{/*aplica para los li en el header*/
+	width:25%;
+	float:left;
+	list-style:none;
+	background-color:#6c1026;
+}header li:hover{
+	background-color:#791798;
+}
+article h2{
+font-weight:normal;
+color:#981763;
+}article  a{
+	color:#173698;
+	text-decoration:none;
+}
+article  a:hover{
+	text-decoration:underline;
+	font-style: italic;
+}
+/* https://tympanus.net/codrops/2011/10/24/creative-css3-animation-menus/ Tarea */
+	
