@@ -1,0 +1,84 @@
+
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline }
+
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+body {background:url(http://i2.esmas.com/galerias/fotos/2014/05/02/_b6dae669_ea26_a14b_d9db_8a7696227062.jpg) top center no-repeat #000;border:0;font:14px Arial, Helvetica, sans-serif;color:#000;line-height:20px}
+.ic, .ic a {border:0;float:right;background:#2dfefa;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);position:relative}
+
+.main {	margin:0 auto;width:920px}
+
+a {color:white;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:98px 0 0 72px}
+h2 {font-size:55px;color:#222;line-height:75px;background:url() 0 0 no-repeat;padding-left:22px;display:block;overflow:hidden}
+h2 span {font-size:30px}
+h3 {margin-left:21px;background:url(../images/latest_works.png) no-repeat;width:191px;height:86px;text-indent:-9999px;margin-bottom:13px}
+h4 {background:url(../images/tweets.png) right 0 no-repeat;font-size:36px;color:#000;height:61px;line-height:55px;letter-spacing:-2px;padding-left:3px}
+h5 {font-size:30px;line-height:1.2em;color:#fff;padding:124px 0 14px 0}
+p {padding-bottom:90px}
+
+header {width:100%;height:377px;overflow:hidden}
+#menu {padding:56px 0 0 34px;height:30px}
+#menu li {float:left;padding-right:42px}
+#menu li a {display:block;font-size:24px;color:white;line-height:1.2em;text-decoration:none}
+#menu li span {font-size:30px;display:inline-block;margin-top:-4px}
+#menu li a:hover, #menu #menu_active a {color:red}
+
+#content {}
+.pad_left1 {padding-left:80px}
+.pad_left2 {padding-left:100px}
+.pad {padding:80 49px}
+.pad_bot1 {padding-bottom:35px}
+.marg_right1 {margin-right:28px}
+.pad_top1 {padding-top:60px} 
+#slider {margin-top:25px;height:260px;width:100%;overflow:hidden;background:url(../images/bg_slider.png) 0 0 no-repeat;overflow:hidden;padding-bottom:25px}
+#for_img {padding-left:91px;padding-top:14px;width:342px;height:225px;overflow:hidden;padding-right:77px}
+#nivo_slider{position:relative;width:342px;height:225px;z-index:88}
+
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:90;display:none}
+
+.nivo-slice {display:block;position:absolute;z-index:90;height:100%}
+
+.nivo-directionNav a {	position:absolute;top:90px;z-index:99;cursor:pointer;text-indent:-5000px;width:52px;height:45px;display:block}
+.nivo-prevNav {left:-77px;background:url(../images/marker_left.png) right 0 no-repeat}
+.nivo-prevNav:hover, .nivo-nextNav:hover {background-position:bottom}
+.nivo-nextNav {right:-77px;background:url(../images/marker_right.png) left 0 no-repeat}
+
+.nivo-controlNav {position:absolute;z-index:99;right:0;bottom:0px;padding:10px;background:url(../images/bg_pagination.png) repeat;padding-left:222px}
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer;width:19px;height:19px;float:left;margin-left:3px;background:url(../images/buttons.png) no-repeat;font-size:12px;text-decoration:none;color:#fff;text-align:center;line-height:19px}
+.nivo-controlNav a.active, .nivo-controlNav a:hover {color:#ab0000;font-weight:bold}
+.font1 {font-size:25px}
+.font2 {font-size:19px;font-weight:bold;color:#ab0000}
+
+
+.lightbox-image {position:relative;overflow:hidden;display:block}
+.lightbox-image img {position:relative;z-index:2}
+.lightbox-image span {display:block;position:absolute;left:0;top:0;width:100%;height:100%;background:url(../images/magnify.png) no-repeat 50% 50%;z-index:1}
+.pp_description {padding-bottom:0}
+.pp_content{}
+
+footer {width:100%;overflow:hidden;padding:0 0 74px 0}
+footer a{}
+footer a:hover{}
+.list1 li {line-height:30px}
+.list1 a {color:#fff;text-decoration:none;padding-left:15px;background:url(../images/marker_1.gif) 0 6px no-repeat}
+.list1 a:hover {color:#ab0000}
+.icons li {line-height:30px}
+.icons a {color:#fff;text-decoration:none}
+.icons a:hover {color:#ab0000}
+.icons img {float:left;margin-right:14px;margin-top:7px}
+#newsletter {background:url(../images/newsletter_bg.png) no-repeat;width:286px;float:left;margin-left:51px;height:360px;margin-top:25px}
+#newsletter h5 {padding-top:98px;padding-left:15px}
+#newsletter form {padding-left:71px;padding-top:5px}
+#newsletter .wrapper {height:28px}
+#newsletter .input {width:144px;background:none;font:14px Arial, Helvetica, sans-serif;color:#000;height:18px}
+#newsletter a {font-weight:bold;color:#fff;text-decoration:none;margin-left:27px;padding:5px 6px 30px 6px;display:inline-block}
+.privacy {float:left;padding-left:15px;width:350px;font-size:12px;color:#a3a3a3;margin-top:-3px}
+.privacy a {color:#fff;text-decoration:none}
+.privacy a:hover {text-decoration:underline}
+.footer_logo {font-size:26px;line-height:1.2em;float:right;color:#fff;text-transform:uppercase;text-decoration:none;margin-right:20px}
+.footer_logo span {color:#ab0000}

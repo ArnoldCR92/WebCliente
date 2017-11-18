@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>parcial 2</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.4.2.js" ></script>
+<script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script>
+<script type="text/javascript" src="js/CabinSketch_700.font.js"></script>
+<script type="text/javascript" src="js/EB_Garamond_400.font.js"></script>
+
+</head>
+<body id="pagina1">
+<div class="main">
+<!-- header -->
+	<header>
+		<div class="wrapper">
+			<nav>
+				<ul id="menu">
+					<li id="menu_active"><a href="index.html"><span>A</span>cerca de</a></li>
+					<li><a href="Services.html"><span>S</span>ervicios</a></li>
+					<li><a href="Gallery.html"><span>G</span>aleria</a></li>
+					<li><a href="Privacy.html"><span>P</span>rivacidad</a></li>
+					<li><a href="Contacts.html"><span>C</span>ontacto</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+<!-- / header -->
+<!-- content -->
+	<section id="content">
+		<div class="wrapper">
+			<article class="col1">
+				<h2>Información</h2>
+				<div class="pad_left1 pad_bot1">
+					<div id="slider">
+						<div id="for_img">
+							<div id="nivo_slider">
+								<img src="https://www.fitnessenlanube.com/wp-content/uploads/peso-muerto-piernas-rigidas-300x150.jpg " alt="">
+								<img src="https://t1.uc.ltmcdn.com/images/2/9/2/img_como_entrenar_en_el_gimnasio_21292_300_150.jpg" alt="">
+								<img src="https://t1.pb.ltmcdn.com/es/posts/3/0/3/img_como_salir_del_aburrimiento_existencial_303_300_150.jpg" alt="">
+								<img src="https://2.bp.blogspot.com/-8CsW_xqR1NE/V3A2V2m_avI/AAAAAAAAAu8/KhE-6ni4Tzwjj2qTInUdYHDnAnz1GD86gCLcB/s400/wefitter-wearable-tech-300x150.jpg" alt="">
+								<img src="https://t2.uc.ltmcdn.com/images/1/4/1/img_beneficios_del_entrenamiento_con_pesas_rusas_43141_300_150.jpg" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="pad">
+						<p>Fitness o forma física (en español buena forma) es un estado general de salud, y en forma más específica se le llama a la capacidad de practicar ciertas actividad físicas, ocupaciones y actividades cotidianas. Una buena forma física por lo general se adquiere como resultado de una nutrición adecuada,1​ la práctica de ejercicio físico de moderados a vigorosos,2​ y un descanso apropiado.3​
+
+						Con anterioridad a la revolución industrial, se definía forma física como la capacidad de realizar las actividades cotidianas sin experimentar fatiga. Sin embargo, con la automatización y los cambios en el estilo de vida en la actualidad se considera que la forma física es una medida de la capacidad del cuerpo de funcionar de forma eficiente y efectiva durante el trabajo y actividades de esparcimiento, estar en condición saludable, ser capaz de resistir enfermedades hipocinéticas, y poder enfrentar situaciones de emergencia.4​
+
+						Se pone énfasis en que la salud física es el resultado de la actividad física regular, de una dieta y nutrición apropiados, además de un descanso apropiado para la recuperación física dentro de los parámetros individuales.</p>
+						
+					</div>
+				</div>
+			</article>
+			
+		</div>
+	</section>
+
+	<footer>
+		<div class="wrapper">
+			
+			<article class="col pad_left2">
+				<h5>Enlaces</h5>
+				<ul class="list1">
+					<li><a href="#">Powergym.es</a></li>
+					<li><a href="#">FitnesWorld.com</a></li>
+					<li><a href="#">Imparable.tv</a></li>
+					<li><a href="#">Mas sobre el fitness</a></li>
+				</ul>
+			</article>
+			<article class="col pad_left2">
+				<h5>Redes Sociales</h5>
+				<ul class="icons">
+					<li><a href="#"><img src="images/icon1.jpg" alt="">Facebook</a></li>
+					<li><a href="#"><img src="images/icon2.jpg" alt="">Stumleupon</a></li>
+					<li><a href="#"><img src="images/icon3.jpg" alt="">Twitter</a></li>
+					<li><a href="#"><img src="images/icon4.jpg" alt="">Digg</a></li>
+				</ul>
+			</article>
+			<article id="newsletter">
+				<h5>Novedades</h5>
+				<form id="newsletter_form">
+					<div class="wrapper">
+						<input class="input" type="text" value="Enter your email here" onblur="if(this.value=='') this.value='Enter your email here'" onFocus="if(this.value =='Enter your email here' ) this.value=''" >
+					</div>
+					<a href="#" onClick="document.getElementById('newsletter_form').submit()">Suscribirse</a>
+				</form>
+			</article>
+		</div>
+	
+	
+	</footer>
+
+</div>
+<script type="text/javascript">Cufon.now();</script>
+<script type="text/javascript">
+	$(window).load(function() {
+	$('#nivo_slider').nivoSlider({
+		effect:'fold', 
+		slices:7,
+		animSpeed:500,
+		pauseTime:6000,
+		startSlide:0, 
+		directionNav:true, 
+		directionNavHide:false, 
+		controlNav:true, 
+		controlNavThumbs:false, 
+		controlNavThumbsFromRel:false, 
+		controlNavThumbsSearch: '.jpg', 
+		controlNavThumbsReplace: '_thumb.jpg',
+		keyboardNav:true, 
+		pauseOnHover:true, 
+		manualAdvance:false, 
+		captionOpacity:1, 
+		beforeChange:function(){},
+		afterChange:function(){},
+		slideshowEnd:function(){} 
+	});
+});
+</script>
+</body>
+</html>
